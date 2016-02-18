@@ -1,4 +1,49 @@
-body {
+/*body {
 	margin: 0px;
 	padding: 0px;
+}*/
+
+section {
+	width: 900px;
+	margin: 0 auto;
+
 }
+
+section > img {
+	max-width: 100%;
+}
+
+h1,h2,h3 {
+	font-family: sans-serif, helvetica;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2{
+	font-family: arial;
+}
+
+section > div, h1, h3 , p {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.categories > a {
+	font-family: sans-serif;
+	color:  #0D98CF;
+
+	text-transform: uppercase;
+}
+
+#name{
+	/*text-transform: bold;*/
+}
+
+/*h1, h2, h3, h4, h5 {
+	font-family: sans-serif;
+}
+h1 {
+	font-size: 52px;
+}*/
